@@ -1,0 +1,51 @@
+.home {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.landing-page-bg {
+    position: absolute;
+    width: 75%;
+    border-radius: 50%;
+    height: 175vh;
+    top: -37.5vh;
+    left: -18%;
+    box-shadow: 1px 1px 55px -20px gray;
+    z-index: 1;
+    background-color: white;
+}
+  
+.home .landing-page {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+}
+  
+.landing-page .navigation a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+  
+.landing-page .social-media {
+    display: inline-flex;
+}
+  
+.landing-page .social-media a {
+    display: inline-flex;
+    margin-right: 15px;
+}
+  
+.home .img-slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    width: 45%;
+}

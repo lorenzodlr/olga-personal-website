@@ -1,0 +1,36 @@
+.booking h6 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.booking input {
+    margin-bottom: 20px;
+    width: 350px
+}
+
+.booking textarea {
+    resize: none;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.booking button {
+    display: block;
+}
+
+.booking-container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 3%;
+    overflow-y: scroll;
+    margin-bottom: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .booking textarea {
+        width: 55%;
+        min-width: 450px;
+    }
+}
